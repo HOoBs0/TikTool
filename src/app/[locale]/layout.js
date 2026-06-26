@@ -5,6 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
@@ -127,6 +128,7 @@ export default async function LocaleLayout({ children, params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6R4PE04FD5"></script>
+        <GoogleAnalytics gaId="G-6R4PE04FD5" />
       </body>
     </html>
   );
