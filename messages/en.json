@@ -1,0 +1,132 @@
+{
+  "navbar": {
+    "home": "Home",
+    "tiktok": "Tiktok",
+    "contact": "Contact",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Download tiktok videos",
+    "subtitle": "without watermark online.",
+    "description": "From the search bar, you can download all TikTok videos without watermarks in high quality (HD) online and for free, so they can be used in design and editing by graphic designers. Quickly copy the URL of the video you want to download to your device.",
+    "search_btn": "Search",
+    "placeholder": "Paste TikTok URL here",
+    "span": "Try Download TikTok Audio MP3",
+    "download_btn": "Download",
+    "download_mp4": "Download MP4"
+  },
+  "featured_in": {
+    "info": "Above you have the ability to download whatever you want from the TikTok platform in high quality, whether it's MP4 or MP3, for free."
+  },
+  "features": {
+    "title": "Why Choose Tik Tool ?",
+    "description": "You can learn about some of the advantages of the Tik Tool platform for downloading TikTok videos.",
+    "list": [
+      {
+        "img": "https://ik.imagekit.io/ctux3iaei/TikTool/no_watermark.webp?updatedAt=1782417634597",
+        "title": "No Watermark",
+        "description": "One of the main tasks is to download without a watermark and username in high quality (HD)."
+      },
+      {
+        "img": "https://ik.imagekit.io/ctux3iaei/TikTool/audio.webp?updatedAt=1782417634470",
+        "title": "Audio Download",
+        "description": "Additionally, there's a feature for sound designers and sound effects creators who need audio for video and music; you can download it in MP3 format from here."
+      },
+      {
+        "img": "https://ik.imagekit.io/ctux3iaei/TikTool/phone.webp?updatedAt=1782417634572",
+        "title": "Iphone & Android",
+        "description": "It's not difficult for iOS and Android users to download their favorite videos with all these features, as they have the ability to share those videos on their phones and all different devices."
+      }
+    ]
+  },
+  "how": {
+    "title": "How to use Tik Tool ?",
+    "description": "If you are unaware of how to use Tik Tool, here are several steps that will explain it to you.",
+    "list": [
+      {
+        "info": "1- Copy video's url from tiktok."
+      },
+      {
+        "info": "2- Go to tik tool's home page."
+      },
+      {
+        "info": "3- Paste video's url at search bar."
+      },
+      {
+        "info": "4- Then, press search button till show video."
+      },
+      {
+        "info": "5- Finally, press download so save video."
+      }
+    ]
+  },
+  "tiktok":{
+    "title":"Download tiktok for Windows & Mac.",
+    "description":"Able to download TikTok for free on your PC from Microsoft and App Store now.",
+    "windows":"Download for windows",
+    "mac":"Download for mac"
+  },
+  "about": {
+    "title": "About us.",
+    "me": "My name is called Ehab George. I am web developer.",
+    "description": "I'm here to offer an online technical service that anyone can easily use anytime, anywhere: downloading videos from TikTok in high quality (HD) and small file sizes, in either MP4 or MP3 format. But that's not all. The key feature is the ability to download these short videos without a watermark or username, completely free of charge, on desktop computers (PCs), as well as iPhones (iOS) and Android devices. This has allowed me to help many graphic designers edit and modify videos in the best possible way."
+  },
+  "contact": {
+    "title": "Get in touch.",
+    "description": "We believe your feedback is the driving force behind improving our services. If you're having trouble uploading your favorite videos, or if you have an idea for a new feature you'd like to see on our site, please don't hesitate to share it with us.",
+    "time": "Available Monday to Friday, 12 PM - 4 PM",
+    "email": "Email :",
+    "phone": "Phone :",
+    "address": "Address :",
+    "name_form": "Name",
+    "email_form": "Email",
+    "message_form": "Message",
+    "btn_form": "Send"
+  },
+  "footer": {
+    "description": "Download TikTok videos without any username using our service",
+    "links": [
+      {
+        "heading": "Products",
+        "list": [
+          {
+            "title": "TikTok App",
+            "href": "tiktok-app"
+          },
+          {
+            "title": "TikTok Downloader",
+            "href": ""
+          }
+        ]
+      },
+      {
+        "heading": "Company",
+        "list": [
+          {
+            "title": "About",
+            "href": "about"
+          },
+          {
+            "title": "Contact",
+            "href": "contact"
+          }
+        ]
+      },
+      {
+        "heading": "Legal",
+        "list": [
+          {
+            "title": "Privacy Policy",
+            "href": "privacy-policy"
+          },
+          {
+            "title": "Terms of Service",
+            "href": "terms-of-service"
+          }
+        ]
+      }
+    ],
+    "developer": "Developed by Ehab George",
+    "message": "This site is not affiliated with TikTok"
+  }
+}

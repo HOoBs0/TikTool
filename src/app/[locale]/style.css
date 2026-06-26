@@ -1,0 +1,44 @@
+.policy {
+    direction: ltr;
+}
+
+.policy h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.policy h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.policy h3 {
+    font-size: 1.5rem; 
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.policy h4 {
+    font-size: 1.25rem; 
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.policy p {
+    font-size: 1rem;    
+    line-height: 1.6;   
+    margin-bottom: 1rem;
+}
+
+.polic li {
+    font-size: 1rem;    
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.policy a {
+    font-size: 1rem;
+    color: #fb923c; 
+    text-decoration: underline;
+}

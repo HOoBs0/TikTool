@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background:  #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  background-color: transparent !important;
+}
