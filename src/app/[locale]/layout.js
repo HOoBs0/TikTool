@@ -4,6 +4,7 @@ import "./style.css"
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
@@ -103,6 +104,8 @@ export default async function LocaleLayout({ children, params }) {
       </head>
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Analytics />
+          <SpeedInsights />
           <Navbar currentLocale={locale} params={params} />
 
           <div dir={direction}>
