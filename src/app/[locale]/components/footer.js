@@ -21,7 +21,7 @@ export default async function Footer({ params, currentLocale }) {
                         <a href="mailto:ehabgeorgesamy@gmail.com" className="text-neutral-400 bg-neutral-800 rounded-xl p-2 hover:text-white">
                             <i className="fa-regular fa-envelope"></i>
                         </a>
-                        <a href="#" className="text-neutral-400 bg-neutral-800 rounded-xl p-2 hover:text-white">
+                        <a href="https://github.com/HOoBs0/TikTool" target="_blank" className="text-neutral-400 bg-neutral-800 rounded-xl p-2 hover:text-white">
                             <i className="fa-brands fa-github"></i>
                         </a>
                     </div>
