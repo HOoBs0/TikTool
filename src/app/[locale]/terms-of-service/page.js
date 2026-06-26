@@ -32,7 +32,7 @@ export default function Terms() {
                     <p><strong>Third-Party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third party that is displayed, included, made available, or linked to through the Service.</p>
                 </li>
                 <li>
-                    <p><strong>Website</strong> refers to TikTooL, accessible from <a href="https://tiktool.vercel.app/" rel="external nofollow noopener" target="_blank">https://tiktool.vercel.app/</a></p>
+                    <p><strong>Website</strong> refers to TikTooL, accessible from <a href="https://tiktool.tech/" rel="external nofollow noopener" target="_blank">https://tiktool.tech/</a></p>
                 </li>
                 <li>
                     <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
