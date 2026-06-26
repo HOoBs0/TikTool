@@ -3,6 +3,7 @@ import "./style.css"
 
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
+import { Analytics } from "@vercel/analytics/next"
 
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
