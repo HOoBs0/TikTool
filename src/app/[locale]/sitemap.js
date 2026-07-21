@@ -1,6 +1,5 @@
-export const dynamic = 'force-dynamic';
-
-export default async function sitemap() {
+export default async function sitemap({ params }) {
+  const { locale } = await params;
   const baseUrl = 'https://tiktok-tool-olive.vercel.app';
 
   const routes = [
@@ -12,11 +11,11 @@ export default async function sitemap() {
     '/terms-of-service',
   ];
 
+  // توليد الروابط بناءً على اللغة الحالية أو لكل اللغات
   const languages = ['en', 'ar'];
 
   const sitemapEntries = [];
 
-  // توليد الروابط لكل اللغات
   routes.forEach((route) => {
     languages.forEach((lang) => {
       const path = route === '' ? `/${lang}` : `/${lang}${route}`;
