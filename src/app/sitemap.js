@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://tiktool.tech';
+  const baseUrl = 'https://tiktok-tool-olive.vercel.app';
   
   // المسارات الخاصة بموقعك
   const routes = ['', '/tiktok-app', '/contact' , '/about' , '/privacy-policy' , '/terms-of-service']; 
