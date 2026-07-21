@@ -1,7 +1,6 @@
-export default function sitemap() {
+export default async function sitemap() {
   const baseUrl = 'https://tiktok-tool-olive.vercel.app';
 
-  // المسارات الأساسية بدون بادئة اللغة
   const routes = [
     '',
     '/tiktok-app',
@@ -13,42 +12,27 @@ export default function sitemap() {
 
   const languages = ['en', 'ar'];
 
-  // توليد جميع المسارات لكل اللغات مع ربط اللغات البديلة (alternates)
-  const sitemapEntries = routes.flatMap((route) => {
-    return languages.map((lang) => {
-      const isHomepage = route === '';
-      const path = isHomepage ? `/${lang}` : `/${lang}${route}`;
+  const sitemapEntries = [];
 
-      return {
+  // توليد الروابط لكل اللغات
+  routes.forEach((route) => {
+    languages.forEach((lang) => {
+      const path = route === '' ? `/${lang}` : `/${lang}${route}`;
+      sitemapEntries.push({
         url: `${baseUrl}${path}`,
         lastModified: new Date(),
-        changeFrequency: isHomepage ? 'daily' : 'weekly',
-        priority: isHomepage ? 1.0 : 0.8,
-        alternates: {
-          languages: {
-            en: `${baseUrl}/en${route}`,
-            ar: `${baseUrl}/ar${route}`,
-            'x-default': `${baseUrl}/en${route}`,
-          },
-        },
-      };
+        changeFrequency: route === '' ? 'daily' : 'weekly',
+        priority: route === '' ? 1.0 : 0.8,
+      });
     });
   });
 
   return [
-    // الصفحة الرئيسية العامة (Root URL)
     {
       url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 1.0,
-      alternates: {
-        languages: {
-          en: `${baseUrl}/en`,
-          ar: `${baseUrl}/ar`,
-          'x-default': `${baseUrl}/en`,
-        },
-      },
     },
     ...sitemapEntries,
   ];
